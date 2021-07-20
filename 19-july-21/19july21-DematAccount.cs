@@ -2,9 +2,9 @@ using System;
 using System.Text.RegularExpressions;
 using System.Threading;
 
-namespace _19_july_21
+namespace Bank
 {
-    class DematAccount : Salaryacc, IDematBenefits
+    class DematAcc : Salaryacc, IDematBenefits
     {
         private string panCardNum;
 
